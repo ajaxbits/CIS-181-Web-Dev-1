@@ -56,24 +56,76 @@ address {
 }
 
 /* Navigation Styles */
-nav {
+nav a {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   padding: 10px 0;
 }
 
-nav a {
+/* ? Also make sure this is correct */
+nav a:link,
+nav a:visited {
   color: white;
   text-decoration: none;
   background-color: hsla(0, 0%, 42%, 0.4);
+  padding: 10px 0;
 }
 
 /* ? make sure this is correct */
 nav a:hover,
 nav a:active {
   color: hsla(0, 0%, 100%, 0.7);
-  background-color: hsl(0, 0%, 42%, 0.7);
+  background-color: hsla(0, 0%, 42%, 0.7);
 }
 
 /* Section Styles */
+section.playbill h1 {
+  font-size: 3em;
+  font-weight: normal;
+  margin: 0;
+  padding: 20px 0 10px 20px;
+}
+
+#play1 {
+  background-color: hsl(240, 100%, 88%);
+}
+
+#play2 {
+  background-color: hsl(25, 88%, 73%);
+}
+
+#play3 {
+  background-color: hsl(0, 100%, 75%);
+}
+
+#play4 {
+  background-color: hsl(296, 86%, 86%);
+}
+
+#play1 h1 {
+  font-family: Champagne, cursive;
+}
+
+#play2 h1 {
+  font-family: Grunge, "Times New Roman", Times, serif;
+}
+
+#play3 h1 {
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+#play4 h1 {
+  font-family: Dobkin, cursive;
+}
 
 /* Description List Styles */
+dt {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: hsla(0, 0%, 0%, 0.4);
+}
+
+dd {
+  font-size: 1.3em;
+  margin-left: 0;
+  margin-bottom: 10px;
+}
