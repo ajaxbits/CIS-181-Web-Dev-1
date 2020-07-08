@@ -1,0 +1,41 @@
+/* Table Styles */
+/* Outer Table Layout */
+
+.spuzzle,
+.subtable { /*<-- there is no "subtable" class in the HTML */
+  border-collapse: collapse;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.spuzzle td { /*<-- the instructions say to apply this style to *all* td's, not just those inside .spuzzle */
+  border: 5px outset gray;
+  width: 33%;
+}
+
+.spuzzle th { /* <-- same problem as above */
+  padding-bottom: 10px;
+  padding-right: 10px;
+  color: gray;
+}
+/* Inner Table Styles */
+.spuzzle tbody th { /* <-- the instructions say that is should apply to the *entire _subTable_ table* -- right now, these styles are applying to an entirely different set of elements */
+  border-collapse: collapse;
+  width: 100%;
+}
+.subTable td {
+  box-shadow: inset 0px 0px 15px;
+  border: 1px solid black;
+  color: blue;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+.goldBox td {
+  background-color: rgb(288, 199, 42);
+}
+.greenBox td {
+  background-color: rgb(203, 229, 130);
+}
