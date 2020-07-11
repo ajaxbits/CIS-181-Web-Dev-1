@@ -31,3 +31,11 @@ ul {
   border-radius: 5px;
   margin-left: 10px;
 }
+
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
