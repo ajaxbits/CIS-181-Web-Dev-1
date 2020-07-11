@@ -4,7 +4,30 @@ Name: Alexander Jackson
 Date: July 12, 2020 
 */
 
+body {
+  padding: 30px;
+}
+
+/* todo: center images?? */
+img {
+  margin: 0 auto;
+}
+
 ol {
   padding: 0 40px;
   list-style: decimal;
+}
+
+ul {
+  padding: 0 40px;
+  list-style-type: disc;
+}
+
+.callout {
+  padding: 10px 10px 10px 30px;
+  background-color: #ececec;
+  width: fit-content;
+  border-left: 4px solid #222222;
+  border-radius: 5px;
+  margin-left: 10px;
 }
